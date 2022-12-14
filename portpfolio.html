@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryoung portfolio。</title>
+    <!-- css -->
+    <link rel="stylesheet" href="portpfolio.css">
+    <!-- fullpage css -->
+    <link rel="stylesheet" href="./js/jquery.fullPage.css">
+    <!-- fontawesome 6.2 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- favicon -->
+    <link rel="icon" href="./images/favicon.png" type="image/x-icon" sizes="16x16">
+    <!-- js -->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header_inner">
+            <div class="logo">R º</div>
+            <div class="gnb">
+                <ul>
+                    <li><a href="#section2" data-anchor="profile">profile</a></li>
+                    <li><a href="#section3" data-anchor="skills">skills</a></li>
+                    <li><a href="#section4" data-anchor="mobile_app">mobile app</a></li>
+                    <li><a href="#section5" data-anchor="web_site">web site</a></li>
+                    <li><a href="#section6" data-anchor="etc">etc</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <div id="fullpage">
+        <div class="section slide1 active">
+            <div class="slide_inner">
+                <div class="square">
+                    <div class="s_red"></div>
+                    <div class="s_yellow"></div>
+                    <div class="s_blue"></div>
+                </div>
+
+                
+
+                <h1>Welcome !<br>Lee eo ryoung portfolio。</h1>
+                <img id="rotate_img" src="./images/rotate.png" alt="nice to meet you">
+                <div class="scroll">
+                    scroll
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+        <div class="section slide2">
+            <div class="slide_inner">
+                <div class="section_title">profile</div>
+                <div class="profile">
+                    <div class="profile_img">
+                        <div class="tooltip">
+                            <div class="tip_box"># 꼼꼼함</div>
+                            <div class="tip_box"># 성실함</div>
+                            <div class="tip_box"># 협동적임</div>
+                            <div class="tip_box"># 도전적임</div>
+                            <div class="tip_box"># istj</div>
+                        </div>
+                        <img src="./images/profile.jpg" alt="프로필 이미지">
+                        <div class="hoverme">
+                            <img src="./images/hoverme.png" alt="hover me">
+                            <span>hover me 😄</span>
+                        </div>
+                    </div>
+                    <div class="profile_txt">
+                        <h2>&#34 web = 옷 &#34</h2>
+                        <p>
+                            우리의 일상에서 함께하는 옷은 외적인 요소도 중요하지만, 원단과 바느질 등 작고 디테일한 부분이 좋아야 좋은 의류라고 생각합니다. 
+                            <br>
+                            이와 같이 우리가 매일 마주하는 web 또한 마크 업 및 웹표준, 웹접근성 등 내부적이고 디테일한 부분을 신경써야 더욱 좋은 web 이라고 생각합니다.
+                            <br>
+                            탄탄한 코드를 추구하고, 늘 탐구하고 배우려는  자세로  일하며
+                            팀원들과 소통하고 발전하는 웹 퍼블리셔가 되도록 노력하겠습니다. 
+
+                        </p>
+                        <div class="licens">
+                            <div class="sub_title">
+                                licens
+                            </div>
+                            <ul>
+                                <li>itq 한글,엑셀,파워포인트</li>
+                                <li>erp 인사,생산,물류</li>
+                                <li>전산회계 2급</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section slide3">skills</div>
+        <div class="section slide4">mobile</div>
+        <div class="section slide5">web site</div>
+        <div class="section slide6">etc</div>
+    </div>
+
+    <!--fullpage script -->
+    <script src="./js/jquery.fullPage.js"></script>
+
+    <!-- js -->
+    <script src="portpfolio.js"></script>
+</body>
+
+</html>
